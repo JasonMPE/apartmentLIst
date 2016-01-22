@@ -1,0 +1,45 @@
+    <div class="apartmentList">
+
+       <!-- ============================title and buttons============================-->
+        <h3 ng-show="apartmentList.length > 1">Minneapolis, MN: {{apartmentList.length}} Apartments</h3>
+        <h3 ng-show="apartmentList.length <= 1">Minneapolis, MN: {{apartmentList.length}} Apartment</h3>
+        <div class="btn-group sortedBtn">
+            <button type="button" class="btn btn-default popularityBtn"
+                    ng-click="myStyle1={'background-color':'#e6b700'};
+                              myStyle2={'background-color':'#ccc'};
+                              order('popularity')" ng-style="myStyle1">Popularity
+                <span class="sortorder" ng-show="predicate === 'popularity'" ng-class="{reverse:reverse}"></span>
+            </button>
+            <button type="button" class="btn btn-default"
+                    ng-click="myStyle2={'background-color':'#e6b700'};
+                              myStyle1={'background-color':'#ccc'};
+                              order('price')" ng-style="myStyle2">Price
+                <span class="sortorder" ng-show="predicate === 'price'" ng-class="{reverse:reverse}"></span>
+            </button>
+        </div>
+
+        <!-- ============================ApartmentList==============================-->
+
+        <div class="row apartmentItem" dir-paginate ="apartment in apartmentList | orderBy:predicate: reverse | itemsPerPage: pageSize" current-page="currentPage">
+            <div class="col-sm-5">
+                <img class="img-responsive" ng-src="{{apartment.image}}" alt=""/>
+            </div>
+            <div class="col-sm-7 apartmentText">
+                <div class="col-sm-12">
+                    <a href="#/detail/{{apartment.id}}"><h3>{{apartment.name}}</h3></a>
+                    <hr/>
+                    <p>{{apartment.description}}</p>
+                    <p>{{apartment.city}}</p>
+                </div>
+                <div class="col-sm-12 apartmentFeeText">
+                    <p>From <span class="apartmentFee">${{apartment.price}}</span></p>
+                    <p>USD/Month</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="paginationBar">
+            <dir-pagination-controls max-size="maxSize", boundary-links="true">
+            </dir-pagination-controls>
+        </div>
+    </div>
