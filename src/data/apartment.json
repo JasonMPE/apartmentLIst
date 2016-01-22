@@ -1,0 +1,112 @@
+{
+    "apartments": [
+        {
+		  	"id": 0,
+        	"name": "The Pavilion on Berry",
+        	"image": "src/img/image-1.jpg",
+        	"price": 512,
+        	"popularity": 4,
+		  	"city":"Minneapolis, MN",
+        	"description": "University of Minnesota - Twin Cities (UMN)"
+        },
+        {   "id": 1,
+        	"name": "Radius @15th",
+        	"image": "src/img/image-2.jpg",
+        	"price": 492,
+        	"popularity": 5,
+		  	"city":"Minneapolis, MN",
+        	"description": "University of Minnesota - Twin Cities (UMN)"
+        },
+        {
+		  	"id": 2,
+        	"name": "416 Lofts",
+        	"image": "src/img/image-3.jpg",
+        	"price": 460,
+        	"popularity": 3,
+		 	 "city":"Minneapolis, MN",
+        	"description": "University of Minnesota - Twin Cities (UMN)"
+        },
+        {
+		  	"id": 3,
+        	"name": "Edge on Oak",
+        	"image": "src/img/image-4.jpg",
+        	"price": 532,
+        	"popularity": 7,
+		  	"city":"Minneapolis, MN",
+        	"description": "University of Minnesota - Twin Cities (UMN)"
+        },
+	  {
+		"id": 4,
+		"name": "Sydney Hall",
+		"image": "src/img/image-5.jpg",
+		"price": 499,
+		"popularity": 6,
+		"city":"Minneapolis, MN",
+		"description": "University of Minnesota, Twin Cities (UMN)"
+	  },
+	  {
+		"id": 5,
+		"name": "Venue at Dinkytown",
+		"image": "src/img/image-6.jpg",
+		"price": 560,
+		"popularity": 2,
+		"city":"Minneapolis, MN",
+		"description": "University of Minnesota - Twin Cities (UMN)"
+	  },
+	  {
+		"id": 6,
+		"name": "GrandMarc Seven Corners",
+		"image": "src/img/image-7.jpg",
+		"price": 439,
+		"popularity": 9,
+		"city":"Minneapolis, MN",
+		"description": "University of Minnesota - Twin Cities (UMN)"
+	  },
+	  {
+		"id": 7,
+		"name": "University Commons",
+		"image": "src/img/image-8.jpg",
+		"price": 584,
+		"popularity": 10,
+		"city":"Minneapolis, MN",
+		"description": "University of Minnesota - Twin Cities (UMN)"
+	  },
+	  {
+		"id": 8,
+		"name": "University Village",
+		"image": "src/img/image-9.jpg",
+		"price": 499,
+		"popularity": 11,
+		"city":"Minneapolis, MN",
+		"description": "University of Minnesota - Twin Cities (UMN)"
+	  },
+	  {
+		"id": 9,
+		"name": "Keeler Apartments",
+		"image": "src/img/image-10.jpg",
+		"price": 584,
+		"popularity": 11,
+		"city":"Minneapolis, MN",
+		"description": "University of Minnesota - Twin Cities (UMN)"
+	  },
+	  {
+		"id": 10,
+		"name": "Stadium View Apartment",
+		"image": "src/img/image-11.jpg",
+		"price": 499,
+		"popularity": 12,
+		"city":"Minneapolis, MN",
+		"description": "University of Minnesota - Twin Cities (UMN)"
+	  },
+	  {
+		"id": 11,
+		"name": "Station on Washington",
+		"image": "src/img/image-12.jpg",
+		"price": 499,
+		"popularity": 1,
+		"city":"Minneapolis, MN",
+		"description": "University of Minnesota - Twin Cities (UMN)"
+	  }
+
+    ]
+}
